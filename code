@@ -1,0 +1,16 @@
+#include <iostream>
+#define pi 3.14;
+using namespace std;
+int main(){
+    int rp;
+    float s,p;
+    cout<<"enter your rp:";
+    cin>>rp;
+    s=rp*rp*pi;
+    p=2*rp*pi;
+    
+    cout<<"s"<<s<<endl;
+    cout<<"p"<<p<<endl;
+    return 0;
+    
+}
